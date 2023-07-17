@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  font-family: 'baloo Da 2', cursive;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+fieldset {
+  padding: 35px;
+  width: 600px;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+.payment-container {
+  background-image: url(images/online-shopping-g483de5a6f_1280.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 18px;
+
+
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 35px;
+  border: 1px solid rgb(167, 109, 109);
+  margin-bottom: 10px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+.btn_bleu_1 {
+  padding: 10px 20px;
+  background-color: #253342;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px auto;
+  display: block;
+  width: fit-content;
+}
+
+.btn_bleu_2 {
+  padding: 10px 20px;
+  background-color: #253342;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 400px;
+  margin-top: 10px;
+}
+
+.btn_bleu_1:hover {
+  background: #1d2359;
+  padding: 13px 22px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #253342;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #1d2359;
+  padding: 13px 22px;
+
+  /*prend le color lorsque vous cliquet sur le bouton*/
+}
+
+.Section2 {
+  background-image: url(images/shopping-g099859462_1280.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.section1 {
+  background-image: url(images/ecommerce-g44895fd26_1280.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+.section4 {
+  background-image: url(images/garment-racks-g165ef5d78_1280.jpg);
+  height: 50px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 200px;
+}
+
+
+.navbar-container {
+  width: 100%;
+  height: 8rem;
+  border-bottom: 0.1rem solid #aaa;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  width: 120rem;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.navbar-logo {
+  font-size: 3.5rem;
+  color: #fff;
+  font-style: italic;
+  font-weight: 800;
+  position: relative;
+  cursor: pointer;
+}
+
+.p1 {
+  font-size: 4.5rem;
+  margin-right: 1rem;
+  position: relative;
+  z-index: 100;
+}
+
+.p2 {
+  font-size: 4.5rem;
+  color: #91979b;
+  position: absolute;
+  top: 0.4rem;
+  left: 0.5rem;
+}
+
+.nav_liste ul {
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+
+}
+
+
+.nav_liste li {
+
+  list-style-type: none;
+  float: left;
+  position: relative;
+  background-color: transparent;
+}
+
+
+.nav_liste a {
+  margin-left: 100px;
+}
+
+.nav_liste ul li a {
+  color: rgb(20, 16, 16);
+  text-decoration: none;
+  width: 150px;
+  height: 30px;
+  display: block;
+  text-align: center;
+  font-size: 1.8rem;
+  color: rgb(19, 16, 16);
+}
+
+.nav_liste ul ul {
+  position: absolute;
+  top: 31px;
+  visibility: hidden;
+}
+
+.nav_liste ul li:hover ul {
+  visibility: visible;
+}
+
+
+
+.navbar_button {
+  display: flex;
+}
+
+.navbar_btn_login_btn_1 {
+  background: #fff;
+  color: rgb(23, 20, 20);
+  margin-right: 10px;
+  width: 8rem;
+  padding: 0.7rem;
+  margin: 0.3rem;
+  font-size: 1.4rem;
+  border-radius: 3rem;
+  border: 0.1rem solid #fff;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+
+
+.Paypal2 {
+  background-color: #2a4051;
+  font-size: 1.8rem;
+  color: rgb(25, 22, 22);
+  width: 100%;
+  padding: 20%;
+
+}
+
+.Paypal3 {
+  background-color: #878a65;
+  font-size: 1.8rem;
+  color: rgb(25, 22, 22);
+  width: 100%;
+  padding: 20%;
+}
+
+.Paypal4 {
+  background-color: #4c767a;
+  font-size: 1.8rem;
+  color: rgb(25, 22, 22);
+  width: 100%;
+  padding: 20%;
+}
+
+.Paypal5 {
+  background-color: #5b543f;
+  font-size: 1.8rem;
+  color: rgb(25, 22, 22);
+  width: 100%;
+  padding: 20%;
+}
+
+.navbar_btn_login_btn_1:hover {
+  background: transparent;
+  color: #262626;
+}
+
+
+
+.navbar_btn_login_btn_2:hover {
+  background: transparent;
+  background-color: rgb(207, 165, 165);
+
+}
+
+.nav-drop {
+  width: 100%;
+  height: 20rem;
+  position: absolute;
+  background: linear-gradient(to right, #7a8085, #656d73, #72777a);
+  top: 8rem;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 30rem;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.nav-drop-li {
+  width: 25rem;
+  margin: 2rem 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.drop_link_1 {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.drop_link_2 {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.banniere {
+  width: 100%;
+  position: absolute;
+  align-items: center;
+  top: 35%;
+  right: 10%;
+
+}
+
+.banniere_titre {
+  font-size: 6rem;
+  font-weight: 300;
+  padding: 13px;
+  color: rgb(79, 7, 7);
+  margin-bottom: 3rem;
+  margin-top: 70px;
+  margin-left: 527px;
+  margin-right: 74px;
+}
+
+.bannierre_p {
+  font-size: 1.8rem;
+  color: rgb(26, 22, 22);
+  width: 50%;
+  margin-left: 625px;
+  margin-top: 10px;
+  margin-bottom: 21px;
+}
+
+.btn_bleu {
+  width: 35rem;
+  height: 5rem;
+  background: #6a6f72;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 3rem;
+  /*ta3wija ta3 button*/
+  cursor: pointer;
+  margin-left: 540px;
+}
+
+.btn_bleu:hover {
+  background: #534839;
+  /*prend le color lorsque vous cliquet sur le bouton*/
+}
